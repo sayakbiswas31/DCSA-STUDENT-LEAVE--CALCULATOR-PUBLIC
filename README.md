@@ -1,11 +1,5 @@
 # DCSA-STUDENT-LEAVE--CALCULATOR-PUBLIC
 
-**Here’s an improved and more polished version of your README, while preserving your friendly tone and emoji style. I've organized it for clarity, consistency, and readability, and made small grammar/style improvements:
-
----
-
-# Student Leave Calculator 🎉
-
 ## 🌟 Overview  
 The **Student Leave Calculator** is a web-based tool designed for students of the *Department of Computer Science and Applications, Panjab University, Chandigarh*. It helps track and manage attendance by calculating how many lectures a student can miss in a given month while still maintaining the mandatory 75% attendance threshold.
 
@@ -109,7 +103,7 @@ Subject: `"Request for Student Leave Calculator Code"` 😄
 
 - **Email**: sayakbiswas@example.com  
 - **Availability**: Mon–Fri, 9 AM – 5 PM IST (subject to change) ⏰  
-- **Social**: Follow updates on X/Twitter: [@SayakBiswasDev](https://x.com/SayakBiswasDev) 🚀  
+- **Social**: Follow updates on Instagram: [@sayakbiswas31](https://www.instagram.com/sayakbiswas31) 🚀  
 
 ---
 
@@ -142,6 +136,3 @@ Just drop an email to the address above. 🌟
 - Font: *Inter* via Google Fonts  
 - Inspired by real-world attendance needs at **Panjab University** 🎓  
 
----
-
-Let me know if you’d like a shorter version for GitHub or a fancier markdown badge section!**
