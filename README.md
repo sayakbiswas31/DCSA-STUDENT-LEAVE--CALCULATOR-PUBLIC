@@ -94,7 +94,7 @@ Try the live version here:
 ## 📧 Request the Code
 
 Interested in the source code?  
-Email: **sayakbiswas@example.com**  
+Email: **sayakbiswas31.career@gmail.com**  
 Subject: `"Request for Student Leave Calculator Code"` 😄  
 
 ---
