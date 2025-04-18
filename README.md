@@ -1,86 +1,147 @@
 # DCSA-STUDENT-LEAVE--CALCULATOR-PUBLIC
 
-Student Leave Calculator 🎉
-Overview 🌟
-The Student Leave Calculator is a web-based application designed to help students at the Department of Computer Science and Application, Panjab University, Chandigarh, track and manage their attendance. It calculates the number of lectures a student can miss in a given month while maintaining the required 75% attendance, based on the total lectures delivered and attended. 😊
-Features 🚀
+**Here’s an improved and more polished version of your README, while preserving your friendly tone and emoji style. I've organized it for clarity, consistency, and readability, and made small grammar/style improvements:
 
-Select semester (Odd: July-December, Even: January-May).
-Choose a target month for leave calculation.
-Input total lectures delivered and attended.
-Real-time calculation of missable lectures and days (assuming 6 lectures per day).
-Display remaining lectures for the selected month.
-Professional UI with Tailwind CSS, Inter font, and a custom gradient background.
-Institutional branding with a placeholder logo and college name. 🌈
+---
 
-Technology Used 💻
+# Student Leave Calculator 🎉
 
-Python: Core programming language for the backend.
-Flask: Lightweight web framework to serve the application.
-Tailwind CSS: CSS framework for a responsive and modern UI.
-Inter Font: Google Fonts typography for a clean look.
-HTML/JavaScript: Frontend structure and dynamic calculations. ⚙️
+## 🌟 Overview  
+The **Student Leave Calculator** is a web-based tool designed for students of the *Department of Computer Science and Applications, Panjab University, Chandigarh*. It helps track and manage attendance by calculating how many lectures a student can miss in a given month while still maintaining the mandatory 75% attendance threshold.
 
-Prerequisites 📋
+---
 
-Python 3.8 or later.
-Flask (pip install Flask==3.0.3).
+## 🚀 Features
 
-Installation 🎯
+- Select **semester**: Odd (July–December) or Even (January–May)  
+- Choose a **target month** for leave calculation  
+- Input **total lectures delivered** and **lectures attended**  
+- Get **real-time calculation** of:
+  - Missable lectures
+  - Missable days (assuming 6 lectures/day)
+  - Remaining lectures
+- **Modern UI** using Tailwind CSS with Inter font and gradient background  
+- **Institutional branding** with college name and customizable logo support 🌈
 
-Create a virtual environment (optional but recommended):python -m venv venv
-source venv/bin/activate  # On Windows: venv\Scripts\activate
+---
 
+## 💻 Technologies Used
 
-Install dependencies:pip install -r requirements.txt
+- **Python** – Core backend logic  
+- **Flask** – Lightweight web framework  
+- **Tailwind CSS** – Utility-first CSS framework for styling  
+- **Inter Font** – Clean, modern typography via Google Fonts  
+- **HTML & JavaScript** – Dynamic frontend interactions ⚙️  
 
+---
 
-(Optional) Add a logo:
-Create a static folder in the project root.
-Place your logo (e.g., logo.png) in static/.
-Update app.py with app.static_folder = 'static' and change the <img src> in index.html to /static/logo.png.
+## 📋 Prerequisites
 
+- Python 3.8 or higher  
+- Flask (install via: `pip install Flask==3.0.3`)  
 
+---
 
-Usage 🎮
+## 🎯 Installation
 
-Run the Flask application:python app.py
+1. **(Optional)** Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
+2. **Install dependencies**:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-Open a browser and navigate to http://127.0.0.1:5000/.
-Use the form to:
-Select a semester.
-Choose a target month.
-Enter the total lectures delivered and attended.
+3. **(Optional)** Add a logo:
+   - Create a `static/` folder in the project root
+   - Place your logo (e.g., `logo.png`) inside it
+   - In `app.py`, add:
+     ```python
+     app.static_folder = 'static'
+     ```
+   - Update `<img src>` in `index.html` to:
+     ```html
+     <img src="/static/logo.png">
+     ```
 
+---
 
-View the calculated result, which shows missable lectures, days, and remaining lectures. 📊
+## 🎮 Usage
 
-View Live Page 🌐
-Experience the Student Leave Calculator live by clicking the button below to open the hosted version:Visit Live Page 🚀
-If You Want the Code 📧
-If you’re interested in the code, please send an email to sayakbiswas@example.com with the subject "Request for Student Leave Calculator Code" to receive the full source files. 😄
-Contact 📞
-For inquiries, support, or collaboration, feel free to reach out:
+1. Run the Flask app:
+   ```bash
+   python app.py
+   ```
 
-Email: sayakbiswas@example.com 🌐
-Availability: Monday to Friday, 9 AM - 5 PM IST (subject to change) ⏰
-Social: Follow updates on X via @SayakBiswasDev 🚀
+2. Open your browser and go to: [http://127.0.0.1:5000](http://127.0.0.1:5000)
 
-Project Structure 🗂️
+3. Use the form to:
+   - Select a semester
+   - Choose a target month
+   - Enter total and attended lectures
+
+4. View the result:
+   - Missable lectures
+   - Missable days
+   - Remaining lectures for the month 📊
+
+---
+
+## 🌐 Live Demo
+
+Try the live version here:  
+👉 [https://dcsa-student-leave-calculator.onrender.com](https://dcsa-student-leave-calculator.onrender.com) 🚀  
+
+---
+
+## 📧 Request the Code
+
+Interested in the source code?  
+Email: **sayakbiswas@example.com**  
+Subject: `"Request for Student Leave Calculator Code"` 😄  
+
+---
+
+## 📞 Contact
+
+- **Email**: sayakbiswas@example.com  
+- **Availability**: Mon–Fri, 9 AM – 5 PM IST (subject to change) ⏰  
+- **Social**: Follow updates on X/Twitter: [@SayakBiswasDev](https://x.com/SayakBiswasDev) 🚀  
+
+---
+
+## 🗂️ Project Structure
+
+```
 project_folder/
 ├── app.py
 ├── requirements.txt
-├── static/  (optional)
+├── static/        # (Optional: logo goes here)
 │   └── logo.png
 └── templates/
     └── index.html
+```
 
-Contributing 🤝
-Feel free to suggest improvements or new features (e.g., leave history, export options) by emailing the above address! 🌟
+---
+
+## 🤝 Contributing
+
+Have ideas or suggestions?  
+New feature ideas like leave history tracking or export options are welcome!  
+Just drop an email to the address above. 🌟  
 
 
-Built with Flask and Tailwind CSS.
-Font: Inter from Google Fonts.
-Inspired by attendance management needs at Panjab University. 🎓
+---
 
+## 🙌 Acknowledgments
+
+- Built using **Flask** and **Tailwind CSS**  
+- Font: *Inter* via Google Fonts  
+- Inspired by real-world attendance needs at **Panjab University** 🎓  
+
+---
+
+Let me know if you’d like a shorter version for GitHub or a fancier markdown badge section!**
