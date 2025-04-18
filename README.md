@@ -101,7 +101,7 @@ Subject: `"Request for Student Leave Calculator Code"` 😄
 
 ## 📞 Contact
 
-- **Email**: sayakbiswas@example.com  
+- **Email**: sayakbiswas31.career@gmail.com  
 - **Availability**: Mon–Fri, 9 AM – 5 PM IST (subject to change) ⏰  
 - **Social**: Follow updates on Instagram: [@sayakbiswas31](https://www.instagram.com/sayakbiswas31) 🚀  
 
